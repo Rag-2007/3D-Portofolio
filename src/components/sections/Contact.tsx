@@ -11,7 +11,7 @@ const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map((input) => [input, ""])
 );
 
-const WHATSAPP_NUMBER = "918874096365"; // India country code + number
+const WHATSAPP_NUMBER = "918977568680"; // India country code + number
 
 const Contact = () => {
   const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
